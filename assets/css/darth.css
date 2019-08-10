@@ -1,6 +1,6 @@
 .backBody{
-    background: url("https://starwarsblog.starwars.com/wp-content/uploads/2018/08/ep-3-vader-emperor-1.jpg");
-    opacity: 0.3;
+    background: url("https://images4.alphacoders.com/884/884071.jpg");
+    opacity: 1;
     z-index: -100;
     width: 98%;
     height: 95%;
@@ -14,15 +14,16 @@
 }
 .mainBody{
     z-index: 1;
+    
 }
 .header-nav-bar{
     display:flex;
     justify-content: space-around;
     height:10%;
-    background: #e2e2e2;
+    background: #212121;
     width: 100%;
     position: fixed;
-    
+    border-radius: 20px;
 }
 
 .header-item{
@@ -36,6 +37,7 @@
     background-color:#212121;
     padding: 1.8% 0 0 0;
     text-decoration: none;
+    border-radius: 20px;
     
 }
 
@@ -47,6 +49,7 @@
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .body{
@@ -54,7 +57,7 @@ body{
     justify-content: space-around;
     height: 90%;
     width: 100%;
-    padding-top:70px;
+    border-radius: 20px;
     
 }
 .content{
@@ -67,18 +70,19 @@ body{
 }
 .img{
     border-radius: 15px;
+    text-align: center;
 }
 .img:hover{
     background-color: #ffffff;
     opacity: 0.9;
 }
 .left{
+    margin:100px 0 0 50px;
     width:500px;
     height: 600px;
     background-color: #e2e2e2;
     border-radius: 10px;
-    
-    padding: 5px 10px;
+    padding: 20px 30px;
 }
 .text{
     font-size: 11px;
@@ -129,4 +133,34 @@ body{
 
 .intro{
     width:50%;
+}
+
+.career-img{
+    width: 50%;
+    height: 100%;
+    background-image: url('https://cdn-media-1.freecodecamp.org/images/1*lJTLbbNTFhCNR5CkHKv9kQ.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.introPage{
+    padding:300px 50px;
+    color:white;
+    margin:auto;
+    justify-items: center;
+}
+.career-card{
+    margin-top:50px;
+    padding:20px;
+    justify-content: space-around;
+    width: 300px;
+    height:60px;
+    background: #e2e2e2;
+    box-shadow: 1 1 1 1;
+}
+
+.career-card:hover{
+    background-color: #c7c7c7
 }
