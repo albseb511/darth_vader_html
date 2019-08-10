@@ -81,7 +81,7 @@ body{
     width:500px;
     height: 600px;
     background-color: #e2e2e2;
-    border-radius: 10px;
+    border-radius: 2px;
     padding: 20px 30px;
 }
 .text{
@@ -163,4 +163,18 @@ body{
 
 .career-card:hover{
     background-color: #c7c7c7
+}
+
+.btn{
+    width:200px;
+    height:70px;
+    border-radius: 15px;
+    text-align: center;
+    padding:10px;
+}
+
+.btn:hover{
+    background: #212121;
+    cursor:pointer;
+    color:#e2e2e2
 }
